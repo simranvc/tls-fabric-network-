@@ -1,0 +1,582 @@
+{
+    "validationCode": 0,
+    "transactionEnvelope": {
+        "signature": {
+            "type": "Buffer",
+            "data": [
+                48,
+                68,
+                2,
+                32,
+                77,
+                51,
+                92,
+                237,
+                203,
+                155,
+                110,
+                214,
+                183,
+                75,
+                241,
+                145,
+                195,
+                117,
+                149,
+                203,
+                208,
+                4,
+                220,
+                90,
+                19,
+                70,
+                98,
+                157,
+                111,
+                55,
+                52,
+                64,
+                71,
+                138,
+                133,
+                104,
+                2,
+                32,
+                127,
+                19,
+                109,
+                94,
+                143,
+                248,
+                58,
+                123,
+                218,
+                168,
+                49,
+                190,
+                53,
+                80,
+                122,
+                77,
+                29,
+                72,
+                94,
+                33,
+                44,
+                28,
+                188,
+                83,
+                164,
+                236,
+                135,
+                250,
+                104,
+                115,
+                107,
+                112
+            ]
+        },
+        "payload": {
+            "header": {
+                "channel_header": {
+                    "type": 3,
+                    "version": 1,
+                    "timestamp": "2019-09-24T07:44:25.665Z",
+                    "channel_id": "mychannel",
+                    "tx_id": "b6588150a36487af0c67d67826aef357536b3f9e2add0b3cb07443a7d7e59876",
+                    "epoch": "0",
+                    "extension": {
+                        "type": "Buffer",
+                        "data": [
+                            18,
+                            15,
+                            18,
+                            13,
+                            110,
+                            101,
+                            119,
+                            99,
+                            104,
+                            97,
+                            105,
+                            110,
+                            99,
+                            111,
+                            100,
+                            101,
+                            49
+                        ]
+                    },
+                    "typeString": "ENDORSER_TRANSACTION"
+                },
+                "signature_header": {
+                    "creator": {
+                        "Mspid": "Org1MSP",
+                        "IdBytes": "-----BEGIN CERTIFICATE-----\nMIICjzCCAjWgAwIBAgIUcv+ccB/kDQd/nvVKuCPpCCEJihMwCgYIKoZIzj0EAwIw\nczELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNh\nbiBGcmFuY2lzY28xGTAXBgNVBAoTEG9yZzEuZXhhbXBsZS5jb20xHDAaBgNVBAMT\nE2NhLm9yZzEuZXhhbXBsZS5jb20wHhcNMTkwOTI0MDUwODAwWhcNMjAwOTIzMDUx\nMzAwWjBCMTAwDQYDVQQLEwZjbGllbnQwCwYDVQQLEwRvcmcxMBIGA1UECxMLZGVw\nYXJ0bWVudDExDjAMBgNVBAMTBXVzZXIxMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcD\nQgAE0ZbLxeP814wTNIzZ9kTjOhdxV4JYaznNJzNTFaXvVDEYLVTGmONyvD/7+ugW\n2yyU+Kn9KxFXXsSWaIPOWEl0AKOB1zCB1DAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0T\nAQH/BAIwADAdBgNVHQ4EFgQUFmaBSdOvASfPkT4igW0ZxPLvjjAwKwYDVR0jBCQw\nIoAgpBornCukFZQ27Mgx+Nm9hfGQVXIz/RNAkyB1xU/zHG0waAYIKgMEBQYHCAEE\nXHsiYXR0cnMiOnsiaGYuQWZmaWxpYXRpb24iOiJvcmcxLmRlcGFydG1lbnQxIiwi\naGYuRW5yb2xsbWVudElEIjoidXNlcjEiLCJoZi5UeXBlIjoiY2xpZW50In19MAoG\nCCqGSM49BAMCA0gAMEUCIQCWEqCvbnh+lAqs/ZzaDc4B1la7crKbJhuowjWv0cfH\n0gIgMC3tTu1Fhu8ycxT/84KUcrOk74TuLIuRRsTvbJnmttE=\n-----END CERTIFICATE-----\n"
+                    },
+                    "nonce": {
+                        "type": "Buffer",
+                        "data": [
+                            74,
+                            52,
+                            191,
+                            149,
+                            73,
+                            123,
+                            37,
+                            31,
+                            73,
+                            149,
+                            10,
+                            106,
+                            152,
+                            205,
+                            20,
+                            32,
+                            11,
+                            198,
+                            249,
+                            205,
+                            47,
+                            138,
+                            64,
+                            200
+                        ]
+                    }
+                }
+            },
+            "data": {
+                "actions": [
+                    {
+                        "header": {
+                            "creator": {
+                                "Mspid": "Org1MSP",
+                                "IdBytes": "-----BEGIN CERTIFICATE-----\nMIICjzCCAjWgAwIBAgIUcv+ccB/kDQd/nvVKuCPpCCEJihMwCgYIKoZIzj0EAwIw\nczELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNh\nbiBGcmFuY2lzY28xGTAXBgNVBAoTEG9yZzEuZXhhbXBsZS5jb20xHDAaBgNVBAMT\nE2NhLm9yZzEuZXhhbXBsZS5jb20wHhcNMTkwOTI0MDUwODAwWhcNMjAwOTIzMDUx\nMzAwWjBCMTAwDQYDVQQLEwZjbGllbnQwCwYDVQQLEwRvcmcxMBIGA1UECxMLZGVw\nYXJ0bWVudDExDjAMBgNVBAMTBXVzZXIxMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcD\nQgAE0ZbLxeP814wTNIzZ9kTjOhdxV4JYaznNJzNTFaXvVDEYLVTGmONyvD/7+ugW\n2yyU+Kn9KxFXXsSWaIPOWEl0AKOB1zCB1DAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0T\nAQH/BAIwADAdBgNVHQ4EFgQUFmaBSdOvASfPkT4igW0ZxPLvjjAwKwYDVR0jBCQw\nIoAgpBornCukFZQ27Mgx+Nm9hfGQVXIz/RNAkyB1xU/zHG0waAYIKgMEBQYHCAEE\nXHsiYXR0cnMiOnsiaGYuQWZmaWxpYXRpb24iOiJvcmcxLmRlcGFydG1lbnQxIiwi\naGYuRW5yb2xsbWVudElEIjoidXNlcjEiLCJoZi5UeXBlIjoiY2xpZW50In19MAoG\nCCqGSM49BAMCA0gAMEUCIQCWEqCvbnh+lAqs/ZzaDc4B1la7crKbJhuowjWv0cfH\n0gIgMC3tTu1Fhu8ycxT/84KUcrOk74TuLIuRRsTvbJnmttE=\n-----END CERTIFICATE-----\n"
+                            },
+                            "nonce": {
+                                "type": "Buffer",
+                                "data": [
+                                    74,
+                                    52,
+                                    191,
+                                    149,
+                                    73,
+                                    123,
+                                    37,
+                                    31,
+                                    73,
+                                    149,
+                                    10,
+                                    106,
+                                    152,
+                                    205,
+                                    20,
+                                    32,
+                                    11,
+                                    198,
+                                    249,
+                                    205,
+                                    47,
+                                    138,
+                                    64,
+                                    200
+                                ]
+                            }
+                        },
+                        "payload": {
+                            "chaincode_proposal_payload": {
+                                "input": {
+                                    "chaincode_spec": {
+                                        "type": 1,
+                                        "typeString": "GOLANG",
+                                        "input": {
+                                            "args": [
+                                                {
+                                                    "type": "Buffer",
+                                                    "data": [
+                                                        99,
+                                                        114,
+                                                        101,
+                                                        97,
+                                                        116,
+                                                        101,
+                                                        67,
+                                                        111,
+                                                        110,
+                                                        116,
+                                                        114,
+                                                        97,
+                                                        99,
+                                                        116
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Buffer",
+                                                    "data": [
+                                                        69,
+                                                        100,
+                                                        101,
+                                                        120,
+                                                        97,
+                                                        67,
+                                                        111,
+                                                        110,
+                                                        116,
+                                                        114,
+                                                        97,
+                                                        99,
+                                                        116
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Buffer",
+                                                    "data": [
+                                                        49,
+                                                        114,
+                                                        55,
+                                                        53,
+                                                        83,
+                                                        48,
+                                                        100,
+                                                        107,
+                                                        115,
+                                                        113,
+                                                        68,
+                                                        99,
+                                                        102,
+                                                        104,
+                                                        121,
+                                                        86,
+                                                        119,
+                                                        57,
+                                                        65,
+                                                        107,
+                                                        52,
+                                                        77,
+                                                        118,
+                                                        52
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Buffer",
+                                                    "data": [
+                                                        57,
+                                                        99,
+                                                        99,
+                                                        48,
+                                                        57,
+                                                        54,
+                                                        97,
+                                                        53,
+                                                        50,
+                                                        53,
+                                                        56,
+                                                        101,
+                                                        98,
+                                                        99,
+                                                        53,
+                                                        49,
+                                                        98,
+                                                        51,
+                                                        55,
+                                                        57,
+                                                        53,
+                                                        55,
+                                                        49,
+                                                        52,
+                                                        98,
+                                                        50,
+                                                        54,
+                                                        54,
+                                                        49,
+                                                        99,
+                                                        100,
+                                                        100,
+                                                        57,
+                                                        48,
+                                                        98,
+                                                        49,
+                                                        56,
+                                                        51,
+                                                        100,
+                                                        55,
+                                                        50,
+                                                        56,
+                                                        98,
+                                                        52,
+                                                        54,
+                                                        102,
+                                                        101,
+                                                        54,
+                                                        101,
+                                                        57,
+                                                        55,
+                                                        101,
+                                                        52,
+                                                        54,
+                                                        49,
+                                                        102,
+                                                        54,
+                                                        51,
+                                                        98,
+                                                        98,
+                                                        101,
+                                                        50,
+                                                        57,
+                                                        57,
+                                                        101,
+                                                        100,
+                                                        97,
+                                                        97,
+                                                        97,
+                                                        98,
+                                                        49,
+                                                        53,
+                                                        48,
+                                                        97,
+                                                        53,
+                                                        53,
+                                                        57,
+                                                        49,
+                                                        98,
+                                                        102,
+                                                        48,
+                                                        53,
+                                                        55,
+                                                        49,
+                                                        102,
+                                                        54,
+                                                        54,
+                                                        48,
+                                                        99,
+                                                        100,
+                                                        49,
+                                                        50,
+                                                        51,
+                                                        97,
+                                                        101,
+                                                        98,
+                                                        99,
+                                                        55,
+                                                        55,
+                                                        99,
+                                                        55,
+                                                        57,
+                                                        56,
+                                                        53,
+                                                        99,
+                                                        99,
+                                                        48,
+                                                        48,
+                                                        57,
+                                                        48,
+                                                        102,
+                                                        100,
+                                                        56,
+                                                        53,
+                                                        51,
+                                                        98,
+                                                        56,
+                                                        102,
+                                                        57,
+                                                        50,
+                                                        102,
+                                                        53,
+                                                        97,
+                                                        51,
+                                                        48,
+                                                        48,
+                                                        101
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Buffer",
+                                                    "data": [
+                                                        74,
+                                                        111,
+                                                        104,
+                                                        110,
+                                                        32,
+                                                        68,
+                                                        111,
+                                                        101
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Buffer",
+                                                    "data": [
+                                                        115,
+                                                        101,
+                                                        99,
+                                                        111,
+                                                        110,
+                                                        100
+                                                    ]
+                                                }
+                                            ],
+                                            "decorations": {}
+                                        },
+                                        "chaincode_id": {
+                                            "path": "",
+                                            "name": "newchaincode1",
+                                            "version": ""
+                                        },
+                                        "timeout": 0
+                                    }
+                                }
+                            },
+                            "action": {
+                                "proposal_response_payload": {
+                                    "proposal_hash": "8d7299cd20d67dcebbb36b1aa3711540e04c9b05481bf7cea77e364236675a5d",
+                                    "extension": {
+                                        "results": {
+                                            "data_model": 0,
+                                            "ns_rwset": [
+                                                {
+                                                    "namespace": "lscc",
+                                                    "rwset": {
+                                                        "reads": [
+                                                            {
+                                                                "key": "newchaincode1",
+                                                                "version": {
+                                                                    "block_num": "11",
+                                                                    "tx_num": "0"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "range_queries_info": [],
+                                                        "writes": [],
+                                                        "metadata_writes": []
+                                                    },
+                                                    "collection_hashed_rwset": []
+                                                },
+                                                {
+                                                    "namespace": "newchaincode1",
+                                                    "rwset": {
+                                                        "reads": [],
+                                                        "range_queries_info": [],
+                                                        "writes": [
+                                                            {
+                                                                "key": "EdexaContract",
+                                                                "is_delete": false,
+                                                                "value": "{\"docType\":\"edexacontract\",\"encryptionKey\":\"1r75S0dksqDcfhyVw9Ak4Mv4\",\"hash\":\"9cc096a5258ebc51b3795714b2661cdd90b183d728b46fe6e97e461f63bbe299edaaab150a5591bf0571f660cd123aebc77c7985cc0090fd853b8f92f5a300e\",\"name\":\"John Doe\",\"note\":\"second\"}"
+                                                            }
+                                                        ],
+                                                        "metadata_writes": []
+                                                    },
+                                                    "collection_hashed_rwset": []
+                                                }
+                                            ]
+                                        },
+                                        "events": {
+                                            "chaincode_id": "",
+                                            "tx_id": "",
+                                            "event_name": "",
+                                            "payload": {
+                                                "type": "Buffer",
+                                                "data": []
+                                            }
+                                        },
+                                        "response": {
+                                            "status": 200,
+                                            "message": "",
+                                            "payload": ""
+                                        },
+                                        "chaincode_id": {
+                                            "path": "",
+                                            "name": "newchaincode1",
+                                            "version": "1.0"
+                                        }
+                                    }
+                                },
+                                "endorsements": [
+                                    {
+                                        "endorser": {
+                                            "Mspid": "Org1MSP",
+                                            "IdBytes": "-----BEGIN CERTIFICATE-----\nMIICKDCCAc6gAwIBAgIQUhaEUHSjJacLdmNEzwLaVTAKBggqhkjOPQQDAjBzMQsw\nCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNU2FuIEZy\nYW5jaXNjbzEZMBcGA1UEChMQb3JnMS5leGFtcGxlLmNvbTEcMBoGA1UEAxMTY2Eu\nb3JnMS5leGFtcGxlLmNvbTAeFw0xOTA5MTMwNTE0MDBaFw0yOTA5MTAwNTE0MDBa\nMGoxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1T\nYW4gRnJhbmNpc2NvMQ0wCwYDVQQLEwRwZWVyMR8wHQYDVQQDExZwZWVyMC5vcmcx\nLmV4YW1wbGUuY29tMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEx+uStW5VmYVw\nIXu7PNIjj9VPAZ5UgFwkqPhFQ/GfUuFozUXib0M1hpuJhZYvfmZir3dkQkjVDUb3\nPFANh00jKaNNMEswDgYDVR0PAQH/BAQDAgeAMAwGA1UdEwEB/wQCMAAwKwYDVR0j\nBCQwIoAgpBornCukFZQ27Mgx+Nm9hfGQVXIz/RNAkyB1xU/zHG0wCgYIKoZIzj0E\nAwIDSAAwRQIhAOT2MT5Dz8PTrE3mumhH+vA8g6nQ11AUksbMCl3+JbvUAiB9yz23\nJYbovAhOKNK4Jioioxmuh1pxrYsjrecwyxoqRw==\n-----END CERTIFICATE-----\n"
+                                        },
+                                        "signature": {
+                                            "type": "Buffer",
+                                            "data": [
+                                                48,
+                                                68,
+                                                2,
+                                                32,
+                                                51,
+                                                150,
+                                                115,
+                                                194,
+                                                219,
+                                                239,
+                                                195,
+                                                61,
+                                                119,
+                                                253,
+                                                206,
+                                                142,
+                                                92,
+                                                23,
+                                                187,
+                                                66,
+                                                251,
+                                                216,
+                                                86,
+                                                11,
+                                                192,
+                                                136,
+                                                103,
+                                                129,
+                                                212,
+                                                106,
+                                                77,
+                                                228,
+                                                29,
+                                                137,
+                                                204,
+                                                168,
+                                                2,
+                                                32,
+                                                63,
+                                                116,
+                                                39,
+                                                119,
+                                                87,
+                                                97,
+                                                50,
+                                                183,
+                                                240,
+                                                219,
+                                                148,
+                                                80,
+                                                175,
+                                                209,
+                                                16,
+                                                253,
+                                                2,
+                                                183,
+                                                7,
+                                                157,
+                                                69,
+                                                92,
+                                                254,
+                                                61,
+                                                209,
+                                                76,
+                                                145,
+                                                208,
+                                                125,
+                                                185,
+                                                17,
+                                                120
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
